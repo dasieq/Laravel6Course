@@ -31,6 +31,12 @@ Route::get('/pizzas', function () {
         ]);
 });
 
+Route::get('/pizzas/{id}', function ($id) {
+    // get the data from db
+
+    return view('details', ['id'=>$id]);  
+});
+
 // Route::get('/pizzas', function () {
 //     // get data from a database
 //     $pizzas = [
