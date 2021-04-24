@@ -7,6 +7,7 @@
         <div class="title m-b-md">
             Herzlich Wilkommen!!!
         </div>
+        <a href="/pizzas/create">Order a Pizza</a>
     </div>
 </div>
 @endsection
