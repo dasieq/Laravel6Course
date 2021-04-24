@@ -15,13 +15,15 @@
         <option value="volcano">Volcano</option>
     </select>
     
-    <label for="type">Choose base type:</label>
+    <label for="base">Choose base type:</label>
     <select name="base" id="base">
         <option value="cheesy crust">Cheesy Crust</option>
         <option value="garlic crust">Garlic Crust</option>
         <option value="thin & crispy">Thin & crispy</option>
         <option value="thick">Thick</option>
     </select>
+    <label for="price">Max price:</label>
+    <input type="text" id="price" name="price">
     <input type="submit" value="Order Pizza">
 </form>
 
