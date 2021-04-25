@@ -24,6 +24,15 @@
     </select>
     <label for="price">Max price:</label>
     <input type="text" id="price" name="price">
+    <fieldset>
+    <label for="">Extra toppings:</label><br>
+    <input type="checkbox" name="toppings[]" value="mushrooms" id="">Mushrooms <br>
+    <input type="checkbox" name="toppings[]" value="peppers" id="">Pepper <br>
+    <input type="checkbox" name="toppings[]" value="garlic" id="">Garlic <br>
+    <input type="checkbox" name="toppings[]" value="olives" id="">Olives <br>
+    </fieldset>
+
+
     <input type="submit" value="Order Pizza">
 </form>
 
